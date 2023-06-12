@@ -1,0 +1,43 @@
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #090580;
+}
+.revenueReport{
+    color: #fff;
+    padding: 0 20px;
+}
+.menuLinks ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.menuLinks ul li{
+    margin: 0 20px;
+}
+
+.menuLinks ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.loginMenu{
+    margin: 0 20px;
+}
+
+.loginMenu span{
+    color: #fff;
+    margin: 0 20px;
+}
+
+.loginButton, .logoutButton{
+    appearance: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
